@@ -1,0 +1,47 @@
+name: Bug report
+about: Report a bug on the Minecraft server
+title: ""
+labels: ["bug"]
+assignees:
+  - Jyguy
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. ..
+        2. ..
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Server region
+      description: If applicable, the server (NAE, NAC, EU) that this happens on.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Screenshots, videos, or any additional information is welcome here.
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Some checks to ensure the bug report is valid
+      options:
+        - label: I have checked for any identical bug reports already open.
+          required: true
