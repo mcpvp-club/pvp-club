@@ -1,0 +1,25 @@
+name: "Feature request"
+description: "Suggest a change/idea for the Minecraft server"
+labels: ["enhancement"]
+assignees:
+  - Jyguy
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the suggestion in great detail.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Screenshots, videos, or any additional information is welcome here.
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Some checks to ensure the suggestion is valid
+      options:
+        - label: I have checked for any identical suggestions already open.
+          required: true
