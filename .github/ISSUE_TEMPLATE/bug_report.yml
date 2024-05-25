@@ -1,5 +1,5 @@
-name: Bug report
-about: Report a bug on the Minecraft server
+name: "Bug report"
+description: "Report a bug on the Minecraft server"
 title: ""
 labels: ["bug"]
 assignees:
